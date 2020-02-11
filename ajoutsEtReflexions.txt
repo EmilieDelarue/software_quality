@@ -1,0 +1,7 @@
+Idées intéressantes :
+cas d'utilisation par un bot,
+liens morts,
+seuil de nombre de caractère pour démarrer la recherche,
+duplication des téléchargements,
+
+C'est très intéressant d'échanger avec l'autre groupe sur la conception des tests, de voir différents points de vue.
