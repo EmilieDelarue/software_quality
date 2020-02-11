@@ -1,39 +1,26 @@
 Systeme de telechargement et recherche des modules de Visual Studio code :
 
+1 - Requête de la liste des plugins
 
-4- Annulation du telechargement :
-	Efface les fichers existants
+2 - Affichage de la  liste des plugins 
+	- Affichage du détail d'un plugin
 
-5- Activate Plugin 
+3  - Recherche par l'utilisateur avec filtres
 
-6- Recommendation
-	
+4 - Requête de téléchargement
+	- choix de la version via lien
 
-7- Deinstallation
+5 - Annulation du telechargement :
+	- Efface les fichers créer/importer en cours
 
-8- Telechargement
-	reprendre le telechargement
-	faire pause 
+6 - Pause du téléchargement
 
-9- Installation
-	choix de la version
+7 - Installation automatique
 
-10 - filter
+8 - Deinstallation
 
-TEST :
+9 - Activer/Désactiver un plugin 
 
-Search -> 	input : string
-				Test1 : Case sensitive
-				Test2 : if exist
-				Test3 : check filter
-				Test4 : check already install
-				Test5 : display order by download
-				Test6 : check all display 
-			output : liste Plugin
-
-Request -> 	format : string
-			Test1 : try connect
-			Test2 : check data
-			Test3 :
-			
-
+10 - Système de recommendation
+	- note
+	- nombre de téléchargements
