@@ -17,13 +17,14 @@ def my_split(string, operator):
 
 
 class TestSplit(unittest.TestCase):
-
+    '''test sur un string simple avec espace en séparateur'''
     def test_my_split(self):
         a="hello world"
         self.assertEqual(my_split(a," "), ['hello', 'world'])
         self.assertTrue(type(my_split(a," ")), list)
         self.assertEqual(len(my_split(a," ")), 2) 
-    
+
+    '''test sur un string avec séparateur espace et séparateur _'''   
     def test_my_split_one_string(self):
         b="jkljfkqs_jfklmjqs-fjqk"
         self.assertEqual(my_split(b," "), ['jkljfkqs_jfklmjqs-fjqk'])
@@ -32,12 +33,14 @@ class TestSplit(unittest.TestCase):
         self.assertEqual(len(my_split(b,"_")), 2)
         self.assertTrue(type(my_split(b," ")), list)
     
+    '''test en mettant deux espaces dans le string d'entrée'''
     def test_my_split_with_two_space(self):
         c="aaa  bbb"
         self.assertEqual(my_split(c," "), ['aaa','bbb'])
         self.assertTrue(type(my_split(c," ")), list)
         self.assertEqual(len(my_split(c," ")), 2)
     
+    '''test avec séparateur +'''
     def test_my_split_another_string(self):
         d="1+3"
         self.assertEqual(my_split(d,"+"), ["1","3"])
